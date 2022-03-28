@@ -13,8 +13,6 @@ export const Container = styled.div`
   margin-bottom: 24px;
 `
 
-export const Icon = styled(DefaultImage)``
-
 export const Name = styled.span`
   white-space: nowrap;
   font-weight: bold;
@@ -29,25 +27,25 @@ export const Dots = styled(dotsSvg)`
 export const Heart = styled(heartSvg)`
   width: 24px;
   height: 24px;
-  padding: 8px;
+  margin: 8px;
 `
 
 export const Balloon = styled(balloonSvg)`
   width: 24px;
   height: 24px;
-  padding: 8px;
+  margin: 8px;
 `
 
 export const Send = styled(sendSvg)`
   width: 24px;
   height: 24px;
-  padding: 8px;
+  margin: 8px;
 `
 
 export const Save = styled(saveSvg)`
   width: 24px;
   height: 24px;
-  padding: 8px;
+  margin: 8px;
 `
 
 export const Picture = styled(DefaultImage)`
@@ -97,12 +95,4 @@ export const Icons = styled.div`
   justify-content: space-between;
   display: flex;
   padding: 4px 6px;
-  /* width: 24px;
-  height: 24px;
-  display: flex;
-  padding: 10px; */
-
-  /* .sc-pVTFL {
-    margin-right: 15px;
-  } */
 `
